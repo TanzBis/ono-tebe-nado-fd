@@ -10,34 +10,81 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
+
     <header class="header">
-      <nav class="menu"></nav>
-      <a href="images/logo-white.svg" class="logo"></a>
-      <adress class="adress"></adress>
+      <!-- Начало навигации шапки сайта -->
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Конец навигации шапки сайта -->
+
+      <!-- Начало класса лого сайта -->
+      <a class="header__logo">
+        <img 
+          class="header__logo-image"
+          src="images/logo-black.svg" 
+          alt="Логотип сайта"
+        />
+      </a>
+      <!-- Начало класса лого сайта -->
+
+      <!-- Начало общего класса с контактными данными -->
+      <address class="address header__address">
+        <ul class="address__links-list">
+          <li class="address__links-list-item">
+            <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>  
+          </li>
+          <li class="address__links-list-item">
+            <a class="address__link" href="mailto:info@sobaka.ge">
+              info@sobaka.ge  
+            </a>
+          </li>
+          <li class="address__links-list-item">
+            <a class="address__link address__link_none">
+              наб. Принсенграхт 263- 265, Амстердам
+            </a>
+          </li>
+        </ul>
+      </address> 
+      <!-- Конец общего класса с контактными данными -->
     </header>
-    <main class="main">
+    <main>
       <section class="cover">
-        <h1 class="do-you-need-it"></h1>
+        <h1 class="cover__title">
+          <span class="accent-span">оно</span>
+          <span class="accent-span text center">тебе</span>
+          <span class="accent-span text right">надо</span>
+        </h1>
         <div class="description">
           <p class="subline">Аукцион вещей в которые никто не верил</p>
         </div>
       </section>
       <section class="lots">
-        <h1 class="lots-header">Лоты</h1>
-        <ul>
-          <li class="lot">
+        <h1 class="lots__header">Лоты</h1>
+        <ul class="lots__container">
+          <li class="lots__item">
             <a href="">
-              <article></article>
+              <article>Фильм режиссёра, который бросил киношколу</article>
             </a>
           </li>
-          <li class="lot">
+          <li class="lots__item">
             <a href="">
-              <article></article>
+              <article>Книга, где описан один скучный день из жизни рекламного агента</article>
             </a>
           </li>
-          <li class="lot">
+          <li class="lots__item">
             <a href="">
-              <article></article>
+              <article>Картина, которую повторит даже 5-летний сын маминой подруги</article>
             </a>
           </li>
         </ul>
