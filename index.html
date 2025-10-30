@@ -28,7 +28,7 @@
       </nav>
       <!-- Конец навигации шапки сайта -->
 
-      <!-- Начало класса лого сайта -->
+      <!-- Логотип сайта -->
       <a class="header__logo">
         <img 
           class="header__logo-image"
@@ -36,9 +36,7 @@
           alt="Логотип сайта"
         />
       </a>
-      <!-- Начало класса лого сайта -->
-
-      <!-- Начало общего класса с контактными данными -->
+      <!-- Блок с контактными данными начало -->
       <address class="address header__address">
         <ul class="address__links-list">
           <li class="address__links-list-item">
@@ -56,20 +54,31 @@
           </li>
         </ul>
       </address> 
-      <!-- Конец общего класса с контактными данными -->
+      <!-- Блок с контактными данными конец-->
     </header>
-    <!-- Начаоло главного блока -->
+    <!-- Шапка сайта конец -->
+
+    
     <main>
+    <!-- Обложка сайта начало -->
       <section class="cover">
-        <h1 class="cover__title">
-          <span class="accent-span">оно</span>
-          <span class="accent-span text center">тебе</span>
-          <span class="accent-span text right">надо</span>
-        </h1>
-        <div class="description">
-          <p class="subline">Аукцион вещей в которые никто не верил</p>
+      <!-- Overlay обложки сайта -->  
+        <div class="overlay"></div>
+            <h1 class="cover__title">
+              <span class="aligned-text">Он<span class="no-letter-spacing">о</span></span>
+              <span class="aligned-text aligned-text_center letter-spacing-extended">теб<span class="no-letter-spacing">е</span></span>
+              <span class="aligned-text aligned-text_end letter-spacing-extended">над<span class="no-letter-spacing">о</span></span>
+            </h1>
+            <div class="cover__description">
+              <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+              <button class="bet-button" type="button">
+                Сделать ставку
+              </button>
         </div>
       </section>
+    <!-- Обложка сайта конец -->
+
+    <!-- Блок с лотами начало -->
       <section class="lots">
         <h1 class="lots__header">Лоты</h1>
         <ul class="lots__container">
@@ -89,8 +98,10 @@
             </a>
           </li>
         </ul>
-
       </section>
+      <!-- Блок с лотами конец -->
+
+      <!-- Блок об аукционе начало -->
       <section class="about">
         <div class="container">
           <a href="images/logo-black.svg" class="logo"></a>
@@ -99,7 +110,9 @@
           <h1 class="about__description"></h1>
         </div>
       </section>
+      <!-- Блок об аукционе конец -->
     </main>
+    <!-- Главный блок конец -->
     <footer class="footer">
       <address class="address"></address>
       <div class="menu"></div>
