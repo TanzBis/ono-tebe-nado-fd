@@ -297,11 +297,6 @@ main {
   min-width: 265px;
 }
 
-.address__links-list {
-  grid-column-start: 1;
-  grid-column-end: 1;
-}
-
 .footer__menu {
   min-width: 164px;
   text-align: center;
